@@ -6,7 +6,6 @@ import {logo,menu,close} from '../assets';
 import { li, nav } from 'framer-motion/client';
 import { hover } from 'framer-motion';
 
-
 const Navbar = () => {
   const [active,setActive]=useState('`')
   const [toggle,setToggle]=useState(false)
