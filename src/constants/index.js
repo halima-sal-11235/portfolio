@@ -4,28 +4,24 @@ import {
   cut,
   web,
   javascript,
-  typescript,
+ 
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  
   rawasii,
   teaching,
   multimedia,
+  davinci,
+  flutter,
+  capcut,
+  dart,
+  supabase,
+  rawasiiapp,
+  portfolio,
+  chefapp,
 } from "../assets";
 
 export const navLinks = [
@@ -82,15 +78,34 @@ const technologies = [
     icon: reactjs,
   },
   
-   
-  {
-    name: "Three JS",
-    icon: threejs,
+   {
+    name: "Flutter",
+    icon: flutter,
   },
+   {
+    name: "Dart",
+    icon: dart,
+  },
+   {
+    name: "Supabase",
+    icon: supabase,
+  },
+  
+  
   {
     name: "git",
     icon: git,
   },
+   {
+    name: "Davinci Resolve",
+    icon: davinci,
+  },
+  
+   {
+    name: "CapCut",
+    icon: capcut,
+  },
+  
   
 ];
 
@@ -187,17 +202,17 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Car Rent",
+   {
+    name: "Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My personal 3D portfolio website, showcasing my projects and experience through interactive 3D scenes, smooth animations, and a responsive design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -205,41 +220,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/halima-sal-11235/portfolio",
   },
   {
-    name: "Job IT",
+    name: "RAWASII",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A full-stack social platform for documenting Algerian architectural heritage, built as a 2nd-year school project. Led the team and handled the app's backend and deployment, letting users explore, document, and share heritage sites.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "dart-frog",
+        color: "green-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rawasiiapp,
+    source_code_link: "https://github.com/halima-sal-11235/Rawasii_frontend",
+  },
+  {
+    name: "One Minute Chef",
+    description:
+      "A recipe web app that generates quick recipe ideas using the Google Gemini API, with a clean interface for browsing, searching, and viewing recipes based on user input.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "gemini-api",
         color: "green-text-gradient",
       },
       {
@@ -247,9 +262,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chefapp,
+    source_code_link: "https://github.com/halima-sal-11235/one-minute-chef-app",
   },
+ 
 ];
-
 export { services, technologies, experiences, testimonials, projects };
