@@ -5,6 +5,7 @@ import CanvasLoader from '../Loader';
 import { useInView } from 'react-intersection-observer';
 
 const Ball = (props) => {
+  const { ref, inView } = useInView({threshold: 0.1 });
   const [decal] = useTexture([props.imgUrl]);
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -20,7 +21,7 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
+  const { ref, inView } = useInView({threshold: 0.1 });
 
   return (
     <div ref={ref} className="w-full h-full">

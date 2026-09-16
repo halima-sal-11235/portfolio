@@ -119,7 +119,7 @@ type="submit" >
 
       </motion.div>
       
-
+<StarsCanvas/>
     </div>
     
   )
