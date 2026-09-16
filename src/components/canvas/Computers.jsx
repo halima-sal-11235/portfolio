@@ -22,7 +22,7 @@ const Computers = ({isMobile}) => {
         position={isMobile ? [-1,-3,-1.75] : [0,-3.75,-1.5]}
         rotation={[-0.01,-0.2,-0.1]}
         />
-
+<div className='color-black-300 font-bold'>Hello</div>
       
 
     
